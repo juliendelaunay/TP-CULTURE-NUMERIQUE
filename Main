@@ -15,3 +15,50 @@
         <item code="1#NOMBRE#col" algoitem="col EST_DU_TYPE NOMBRE"/>
         <item code="1#NOMBRE#i" algoitem="i EST_DU_TYPE NOMBRE"/>
         <item code="1#NOMBRE#j" algoitem="j EST_DU_TYPE NOMBRE"/>
+ </item>
+    <item code="101#debutalgo" algoitem="DEBUT_ALGORITHME">
+        <item code="4#Combien de lignes dans les matrices ?#0" algoitem="AFFICHER &quot;Combien de lignes dans les matrices ?&quot;"/>
+        <item code="2#li#pasliste" algoitem="LIRE li"/>
+        <item code="4#Combien de colonnes ?#0" algoitem="AFFICHER &quot;Combien de colonnes ?&quot;"/>
+        <item code="2#col#pasliste" algoitem="LIRE col"/>
+        <item code="4#les éléments de la première matrice sont :#0" algoitem="AFFICHER &quot;les éléments de la première matrice sont :&quot;"/>
+        <item code="12#i#0#li-1" algoitem="POUR i ALLANT_DE 0 A li-1">
+            <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+            <item code="12#j#0#col-1" algoitem="POUR j ALLANT_DE 0 A col-1">
+                <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+                <item code="2#A#(i*col)+j" algoitem="LIRE A[(i*col)+j]"/>
+                <item code="14#finpour" algoitem="FIN_POUR"/>
+            </item>
+            <item code="14#finpour" algoitem="FIN_POUR"/>
+        </item>
+        <item code="4#Afficher A :#0" algoitem="AFFICHER &quot;Afficher A :&quot;"/>
+        <item code="12#i#0#li-1" algoitem="POUR i ALLANT_DE 0 A li-1">
+            <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+            <item code="12#j#0#col-1" algoitem="POUR j ALLANT_DE 0 A col-1">
+                <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+                <item code="3#A#0#(i*col)+j" algoitem="AFFICHER A[(i*col)+j]"/>
+                <item code="4#;#0" algoitem="AFFICHER &quot;;&quot;"/>
+                <item code="14#finpour" algoitem="FIN_POUR"/>
+            </item>
+            <item code="14#finpour" algoitem="FIN_POUR"/>
+        </item>
+        <item code="4#les éléments de B sont :#0" algoitem="AFFICHER &quot;les éléments de B sont :&quot;"/>
+        <item code="12#i#0#li-1" algoitem="POUR i ALLANT_DE 0 A li-1">
+            <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+            <item code="12#j#0#col-1" algoitem="POUR j ALLANT_DE 0 A col-1">
+                <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+                <item code="2#B#(i*col)+j" algoitem="LIRE B[(i*col)+j]"/>
+                <item code="14#finpour" algoitem="FIN_POUR"/>
+            </item>
+            <item code="14#finpour" algoitem="FIN_POUR"/>
+        </item>
+        <item code="4#Afficher B :#0" algoitem="AFFICHER &quot;Afficher B :&quot;"/>
+        <item code="12#i#0#col-1" algoitem="POUR i ALLANT_DE 0 A col-1">
+            <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+            <item code="12#j#0#col-1" algoitem="POUR j ALLANT_DE 0 A col-1">
+                <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+                <item code="3#B#0#(i*col)+j" algoitem="AFFICHER B[(i*col)+j]"/>
+                <item code="4#;#0" algoitem="AFFICHER &quot;;&quot;"/>
+                <item code="14#finpour" algoitem="FIN_POUR"/>
+            </item>
+            <item code="14#finpour" algoitem="FIN_POUR"/>
