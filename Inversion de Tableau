@@ -22,3 +22,9 @@
             <item algoitem="FIN_FONCTION" code="204#finfonction"/>
         </item>
     </item>
+   <item algoitem="VARIABLES" code="100#declarationsvariables">
+        <item algoitem="som EST_DU_TYPE NOMBRE" code="1#NOMBRE#som"/>
+        <item algoitem="tab EST_DU_TYPE LISTE" code="1#LISTE#tab"/>
+        <item algoitem="n EST_DU_TYPE NOMBRE" code="1#NOMBRE#n"/>
+        <item algoitem="j EST_DU_TYPE NOMBRE" code="1#NOMBRE#j"/>
+    </item>
