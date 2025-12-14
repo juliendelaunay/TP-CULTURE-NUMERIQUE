@@ -62,3 +62,28 @@
                 <item code="14#finpour" algoitem="FIN_POUR"/>
             </item>
             <item code="14#finpour" algoitem="FIN_POUR"/>
+</item>
+        <item code="4#La somme de A+B est : #0" algoitem="AFFICHER &quot;La somme de A+B est : &quot;"/>
+        <item code="12#i#0#li-1" algoitem="POUR i ALLANT_DE 0 A li-1">
+            <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+            <item code="12#j#0#col-1" algoitem="POUR j ALLANT_DE 0 A col-1">
+                <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+                <item code="5#C#A[(i*col)+j]+B[(i*col)+j]#(i*col)+j" algoitem="C[(i*col)+j] PREND_LA_VALEUR A[(i*col)+j]+B[(i*col)+j]"/>
+                <item code="14#finpour" algoitem="FIN_POUR"/>
+            </item>
+            <item code="14#finpour" algoitem="FIN_POUR"/>
+        </item>
+        <item code="4#Afficher C :#0" algoitem="AFFICHER &quot;Afficher C :&quot;"/>
+        <item code="12#i#0#li-1" algoitem="POUR i ALLANT_DE 0 A li-1">
+            <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+            <item code="12#j#0#col-1" algoitem="POUR j ALLANT_DE 0 A col-1">
+                <item code="13#debutpour" algoitem="DEBUT_POUR"/>
+                <item code="3#C#0#(i*col)+j" algoitem="AFFICHER C[(i*col)+j]"/>
+                <item code="4#;#0" algoitem="AFFICHER &quot;;&quot;"/>
+                <item code="14#finpour" algoitem="FIN_POUR"/>
+            </item>
+            <item code="14#finpour" algoitem="FIN_POUR"/>
+        </item>
+    </item>
+    <item code="102#finalgo" algoitem="FIN_ALGORITHME"/>
+</Algo>
