@@ -6,8 +6,8 @@ Ce projet a pour objectif de réaliser un travail collaboratif sur un algorithme
 
 ## Contenu du dépôt
 
-* Un ou plusieurs fichiers `.algo` correspondant aux algorithmes développés
-* `README.md` : document expliquant comment ouvrir et exécuter le projet
+* Plusieurs fichiers `.algo` correspondant aux algorithmes développés
+
 
 ## Prérequis
 
