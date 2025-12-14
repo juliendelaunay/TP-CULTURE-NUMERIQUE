@@ -28,3 +28,24 @@
         <item algoitem="n EST_DU_TYPE NOMBRE" code="1#NOMBRE#n"/>
         <item algoitem="j EST_DU_TYPE NOMBRE" code="1#NOMBRE#j"/>
     </item>
+    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
+        <item algoitem="LIRE n" code="2#n#pasliste"/>
+        <item algoitem="POUR i ALLANT_DE 1 A n" code="12#i#1#n">
+            <item algoitem="DEBUT_POUR" code="13#debutpour"/>
+            <item algoitem="LIRE tab[i]" code="2#tab#i"/>
+            <item algoitem="FIN_POUR" code="14#finpour"/>
+        </item>
+        <item algoitem="AFFICHER &quot;Avant invesion le tableau est :&quot;" code="4#Avant invesion le tableau est :#0"/>
+        <item algoitem="POUR i ALLANT_DE 1 A n" code="12#i#1#n">
+            <item algoitem="DEBUT_POUR" code="13#debutpour"/>
+            <item algoitem="AFFICHER tab[i]" code="3#tab#0#i"/>
+            <item algoitem="AFFICHER &quot;;&quot;" code="4#;#0"/>
+            <item algoitem="FIN_POUR" code="14#finpour"/>
+        </item>
+        <item algoitem="AFFICHER &quot;   &quot;" code="4#   #1"/>
+        <item algoitem="AFFICHER &quot;Apres inversion le tableau est :&quot;" code="4#Apres inversion le tableau est :#0"/>
+        <item algoitem="APPELER_FONCTION somTab(tab,n)" code="206#somTab(tab,n)"/>
+        <item algoitem="AFFICHER som" code="3#som#0#pasliste"/>
+    </item>
+    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
+</Algo>
